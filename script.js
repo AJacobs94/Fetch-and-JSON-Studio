@@ -9,11 +9,11 @@ container.innerHTML=
 container.innerHTML+
    `<div class ='astronaut'>
    <div class = 'bio'>
-   <h3>${json[i].firstName}</h3>
+   <h3>${json[i].firstName} ${json[i].lastName}</h3>
    <ul>
-   <li>${json[i].hoursInSpace}</li>
-   <li>${json[i].active}</li>
-   <li>${json[i].skills}</li>
+   <li>Hours in space:${json[i].hoursInSpace}</li>
+   <li>Acive:${json[i].active}</li>
+   <li>Skills:${json[i].skills}</li>
    </ul>
    </div>
    <img class= "avatar" src=${json[i].picture}
